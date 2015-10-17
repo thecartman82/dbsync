@@ -30,6 +30,8 @@ console.log("Initializing database...");
 
 db.init(function () {
 	console.log("Starting main loop...");
+
+	var count = 0;
 	
 	var mainLoop = setInterval(function () {
 		// Update data item
@@ -38,7 +40,12 @@ db.init(function () {
 		data[id][key] = chance.string();
 
 		db.set("00001", id, data[id]);
-		console.log(id + "[" + key + "] = " + data[id][key]);
+		//console.log(id + "[" + key + "] = " + data[id][key]);
+
+		count++;
+		if (count % 100 === 0) {
+			console.log("Update count: " + count);
+		}
 	}, 10);
 
 	process.on("SIGINT", function() {
