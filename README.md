@@ -1,12 +1,25 @@
-Test SQLite vs file write
+# dbsync
+###Test SQLite vs file write
 
-Usage:
+----
 
-	npm install
+#### Usage:
 
-	node app.js sqlite <or> node app.js file
+```
+npm install
+```
 
-Results:
+Then
+
+```
+node app.js sqlite
+```
+or
+```
+node app.js file
+```
+
+#### Results:
 
 ![Screen 1](img/screen1.png)
 
