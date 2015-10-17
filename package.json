@@ -1,0 +1,25 @@
+{
+  "name": "dbsync",
+  "version": "1.0.0",
+  "description": "Test SQLite vs file write",
+  "main": "app.js",
+  "dependencies": {
+    "chance": "^0.8.0",
+    "fs-tools": "^0.2.11",
+    "sqlite3": "^3.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:thecartman82/dbsync.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thecartman82/dbsync/issues"
+  },
+  "homepage": "https://github.com/thecartman82/dbsync"
+}
