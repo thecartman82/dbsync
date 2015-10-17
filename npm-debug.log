@@ -1,0 +1,176 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/ivan/local/bin/node',
+1 verbose cli   '/home/ivan/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'sqlite',
+1 verbose cli   'chance',
+1 verbose cli   '--save' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.38
+4 verbose cache add [ 'sqlite', null ]
+5 verbose cache add name=undefined spec="sqlite" args=["sqlite",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'sqlite',
+6 verbose parsed url   path: 'sqlite',
+6 verbose parsed url   href: 'sqlite' }
+7 verbose cache add [ 'chance', null ]
+8 verbose cache add name=undefined spec="chance" args=["chance",null]
+9 verbose parsed url { protocol: null,
+9 verbose parsed url   slashes: null,
+9 verbose parsed url   auth: null,
+9 verbose parsed url   host: null,
+9 verbose parsed url   port: null,
+9 verbose parsed url   hostname: null,
+9 verbose parsed url   hash: null,
+9 verbose parsed url   search: null,
+9 verbose parsed url   query: null,
+9 verbose parsed url   pathname: 'chance',
+9 verbose parsed url   path: 'chance',
+9 verbose parsed url   href: 'chance' }
+10 silly lockFile 6d64a5ee-sqlite sqlite
+11 verbose lock sqlite /home/ivan/.npm/6d64a5ee-sqlite.lock
+12 silly lockFile f49f577d-chance chance
+13 verbose lock chance /home/ivan/.npm/f49f577d-chance.lock
+14 silly lockFile 6d64a5ee-sqlite sqlite
+15 silly lockFile 6d64a5ee-sqlite sqlite
+16 silly lockFile f49f577d-chance chance
+17 silly lockFile f49f577d-chance chance
+18 verbose addNamed [ 'sqlite', '' ]
+19 verbose addNamed [ null, '*' ]
+20 silly lockFile 02179a0b-sqlite sqlite@
+21 verbose lock sqlite@ /home/ivan/.npm/02179a0b-sqlite.lock
+22 verbose addNamed [ 'chance', '' ]
+23 verbose addNamed [ null, '*' ]
+24 silly lockFile 58df1471-chance chance@
+25 verbose lock chance@ /home/ivan/.npm/58df1471-chance.lock
+26 silly addNameRange { name: 'sqlite', range: '*', hasData: false }
+27 silly addNameRange { name: 'chance', range: '*', hasData: false }
+28 verbose request where is /sqlite
+29 verbose request registry https://registry.npmjs.org/
+30 verbose request id b6d9e308c622b9ec
+31 verbose url raw /sqlite
+32 verbose url resolving [ 'https://registry.npmjs.org/', './sqlite' ]
+33 verbose url resolved https://registry.npmjs.org/sqlite
+34 verbose request where is https://registry.npmjs.org/sqlite
+35 info trying registry request attempt 1 at 15:17:58
+36 http GET https://registry.npmjs.org/sqlite
+37 verbose request where is /chance
+38 verbose request registry https://registry.npmjs.org/
+39 verbose url raw /chance
+40 verbose url resolving [ 'https://registry.npmjs.org/', './chance' ]
+41 verbose url resolved https://registry.npmjs.org/chance
+42 verbose request where is https://registry.npmjs.org/chance
+43 info trying registry request attempt 1 at 15:17:58
+44 http GET https://registry.npmjs.org/chance
+45 http 404 https://registry.npmjs.org/sqlite
+46 silly registry.get cb [ 404,
+46 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+46 silly registry.get     etag: '"EWN7W206VQ5EY1B35LEQ0J5B2"',
+46 silly registry.get     'content-type': 'application/json',
+46 silly registry.get     'cache-control': 'max-age=0',
+46 silly registry.get     'content-length': '480',
+46 silly registry.get     'accept-ranges': 'bytes',
+46 silly registry.get     date: 'Sat, 17 Oct 2015 13:17:58 GMT',
+46 silly registry.get     via: '1.1 varnish',
+46 silly registry.get     age: '0',
+46 silly registry.get     connection: 'keep-alive',
+46 silly registry.get     'x-served-by': 'cache-fra1240-FRA',
+46 silly registry.get     'x-cache': 'MISS',
+46 silly registry.get     'x-cache-hits': '0',
+46 silly registry.get     'x-timer': 'S1445087878.756626,VS0,VE182',
+46 silly registry.get     vary: 'Accept' } ]
+47 silly lockFile 02179a0b-sqlite sqlite@
+48 silly lockFile 02179a0b-sqlite sqlite@
+49 http 200 https://registry.npmjs.org/chance
+50 silly registry.get cb [ 200,
+50 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+50 silly registry.get     etag: '"6CQW625CMX3ARQBOWLMSUGQUZ"',
+50 silly registry.get     'content-type': 'application/json',
+50 silly registry.get     'cache-control': 'max-age=60',
+50 silly registry.get     'content-length': '52540',
+50 silly registry.get     'accept-ranges': 'bytes',
+50 silly registry.get     date: 'Sat, 17 Oct 2015 13:17:59 GMT',
+50 silly registry.get     via: '1.1 varnish',
+50 silly registry.get     age: '0',
+50 silly registry.get     connection: 'keep-alive',
+50 silly registry.get     'x-served-by': 'cache-fra1231-FRA',
+50 silly registry.get     'x-cache': 'MISS',
+50 silly registry.get     'x-cache-hits': '0',
+50 silly registry.get     'x-timer': 'S1445087878.759537,VS0,VE718',
+50 silly registry.get     vary: 'Accept' } ]
+51 silly addNameRange number 2 { name: 'chance', range: '*', hasData: true }
+52 silly addNameRange versions [ 'chance',
+52 silly addNameRange   [ '0.1.0',
+52 silly addNameRange     '0.1.1',
+52 silly addNameRange     '0.2.0',
+52 silly addNameRange     '0.2.1',
+52 silly addNameRange     '0.3.0',
+52 silly addNameRange     '0.3.1',
+52 silly addNameRange     '0.3.3',
+52 silly addNameRange     '0.4.0',
+52 silly addNameRange     '0.4.2',
+52 silly addNameRange     '0.4.3',
+52 silly addNameRange     '0.5.0',
+52 silly addNameRange     '0.5.1',
+52 silly addNameRange     '0.5.2',
+52 silly addNameRange     '0.5.3',
+52 silly addNameRange     '0.5.4',
+52 silly addNameRange     '0.5.5',
+52 silly addNameRange     '0.5.6',
+52 silly addNameRange     '0.5.7',
+52 silly addNameRange     '0.5.8',
+52 silly addNameRange     '0.5.9',
+52 silly addNameRange     '0.6.0',
+52 silly addNameRange     '0.6.1',
+52 silly addNameRange     '0.6.2',
+52 silly addNameRange     '0.6.3',
+52 silly addNameRange     '0.6.4',
+52 silly addNameRange     '0.7.0',
+52 silly addNameRange     '0.7.1',
+52 silly addNameRange     '0.7.2',
+52 silly addNameRange     '0.7.3',
+52 silly addNameRange     '0.7.4',
+52 silly addNameRange     '0.7.5',
+52 silly addNameRange     '0.7.6',
+52 silly addNameRange     '0.7.7',
+52 silly addNameRange     '0.8.0' ] ]
+53 verbose addNamed [ 'chance', '0.8.0' ]
+54 verbose addNamed [ '0.8.0', '0.8.0' ]
+55 silly lockFile c7f39287-chance-0-8-0 chance@0.8.0
+56 verbose lock chance@0.8.0 /home/ivan/.npm/c7f39287-chance-0-8-0.lock
+57 silly lockFile e9ff265f-pmjs-org-chance-chance-0-8-0-tgz https://registry.npmjs.org/chance/-/chance-0.8.0.tgz
+58 verbose lock https://registry.npmjs.org/chance/-/chance-0.8.0.tgz /home/ivan/.npm/e9ff265f-pmjs-org-chance-chance-0-8-0-tgz.lock
+59 verbose addRemoteTarball [ 'https://registry.npmjs.org/chance/-/chance-0.8.0.tgz',
+59 verbose addRemoteTarball   'b48b7f1f16b7fcc1c4496fd2e6ebfff13f47ed24' ]
+60 info retry fetch attempt 1 at 15:17:59
+61 verbose fetch to= /tmp/npm-24174-bo0ZgY3N/registry.npmjs.org/chance/-/chance-0.8.0.tgz
+62 http GET https://registry.npmjs.org/chance/-/chance-0.8.0.tgz
+63 http 200 https://registry.npmjs.org/chance/-/chance-0.8.0.tgz
+64 silly lockFile e9ff265f-pmjs-org-chance-chance-0-8-0-tgz https://registry.npmjs.org/chance/-/chance-0.8.0.tgz
+65 silly lockFile e9ff265f-pmjs-org-chance-chance-0-8-0-tgz https://registry.npmjs.org/chance/-/chance-0.8.0.tgz
+66 silly lockFile c7f39287-chance-0-8-0 chance@0.8.0
+67 silly lockFile c7f39287-chance-0-8-0 chance@0.8.0
+68 silly lockFile 58df1471-chance chance@
+69 silly lockFile 58df1471-chance chance@
+70 error 404 Not Found
+70 error 404
+70 error 404 'sqlite' is not in the npm registry.
+70 error 404 You should bug the author to publish it
+70 error 404
+70 error 404 Note that you can also install from a
+70 error 404 tarball, folder, or http url, or git url.
+71 error System Linux 3.16.0-4-amd64
+72 error command "/home/ivan/local/bin/node" "/home/ivan/local/bin/npm" "install" "sqlite" "chance" "--save"
+73 error cwd /home/ivan/dev/testing/node/filesync
+74 error node -v v0.10.38
+75 error npm -v 1.4.28
+76 error code E404
+77 verbose exit [ 1, true ]
