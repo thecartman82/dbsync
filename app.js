@@ -39,7 +39,7 @@ db.init(function () {
 
 		db.set("00001", id, data[id]);
 		console.log(id + "[" + key + "] = " + data[id][key]);
-	}, 1000);
+	}, 10);
 
 	process.on("SIGINT", function() {
 		db.dispose();
